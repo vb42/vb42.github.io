@@ -28,7 +28,7 @@ a:hover {
 .pic {
     color: white;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(images/pic.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url(images/pic2.jpg);
     
         background-size: cover;
     background-repeat: no-repeat;
