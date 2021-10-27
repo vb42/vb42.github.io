@@ -9,7 +9,7 @@ font-family: 'PT Sans', sans-serif;
 }
 
 
-a {
+nav a, .city a {
     color:white;
     text-decoration: none;
     padding: 8px 15px 8px 0;
@@ -23,6 +23,32 @@ a:hover {
     color:gold;
     text-decoration: none;
 }
+
+
+.podval {
+   display: flex;
+flex-flow: row wrap;
+    align-items: top; 
+    
+}
+
+
+
+
+.podval a {
+   
+    color:white;
+    text-decoration: none;
+    
+}
+
+
+.podval ul {
+   
+    list-style: none;
+    
+}
+
 
 
 .pic {
@@ -668,14 +694,7 @@ margin-bottom: 20px;
     }
 
 
-    input {
-outline: none;
- background: transparent;   
-border:0; 
     
-  border-bottom:2px solid #000; 
-    width:300px;
-}
 
 
 }
