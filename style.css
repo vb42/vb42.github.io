@@ -107,10 +107,14 @@ flex-flow: row wrap;
 
 .spisok {display: flex;
 flex-flow: row wrap;
-    align-items: center;
+    align-items: top;
 }
 
-.uslugi {padding-left: 50px;padding-bottom: 50px;}
+.uslugi { border-left: 2px solid #fff; margin-right: 20px;margin-bottom: 20px;padding: 20px;
+    border-radius: 0px;
+
+
+}
 
 header {
     display: flex;
@@ -557,7 +561,7 @@ margin-bottom: 15px;
     color: #000;
     }
 
-
+    
 
 }
 
