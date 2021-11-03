@@ -110,7 +110,7 @@ flex-flow: row wrap;
     align-items: top;
 }
 
-.uslugi { border-left: 2px solid #fff; margin-right: 20px;margin-bottom: 20px;padding: 20px;
+.uslugi { border-left: 2px solid #fff; margin-right: 90px;margin-bottom: 20px;padding: 20px;
     border-radius: 0px;
 
 
@@ -665,6 +665,9 @@ margin-bottom: 15px;
     .utp h1 {color: white; text-align: left;}
     
     .utp p {color: white;text-align: left;}
+    
+    
+    
     
     .citytel {order:3;
 margin-bottom: 20px;
