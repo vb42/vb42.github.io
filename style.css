@@ -110,8 +110,20 @@ flex-flow: row wrap;
     align-items: top;
 }
 
-.uslugi { border-left: 2px solid #fff; margin-right: 90px;margin-bottom: 20px;padding: 20px;
+.uslugi {border: 0px solid #fff; margin-bottom: 60px;
     border-radius: 0px;
+
+
+}
+
+
+.spisok1 {display: flex;
+flex-flow: row wrap;
+    align-items: center;
+}
+
+.uslugi1 { border: 0px solid #fff; margin-right: 50px;padding-bottom: 30px;padding: 20px;
+    border-radius: 0px; background-color: #000;
 
 
 }
