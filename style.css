@@ -587,7 +587,7 @@ margin-bottom: 15px;
 @media screen and (max-width: 480px)
 {
     
-    .uslugi {width: 51%;display: inline-block; border: 0px solid #fff; margin-bottom: 60px;
+    .uslugi {width: 100%;display: inline-block; border: 0px solid #fff; margin-bottom: 60px;
     border-radius: 0px;
 
 
