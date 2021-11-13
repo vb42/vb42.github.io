@@ -27,7 +27,7 @@ a:hover {
 
 .podval {
    display: flex;
-flex-flow: row wrap;
+
     align-items: top; 
     
 }
@@ -49,7 +49,15 @@ flex-flow: row wrap;
     
 }
 
-
+.vstrecha {
+        
+        border: 0px solid; 
+        min-width: 0; 
+        margin-bottom: 25px;
+        margin-right: 0px; 
+        margin-top: 0px;
+        
+    }
 
 .pic {
     color: white;
@@ -580,8 +588,25 @@ margin-bottom: 15px;
     }
 
     
-
+    .vstrecha {
+        
+        border: 0px solid; 
+        width: 100%; 
+        margin-bottom: 25px;
+        margin-right: 0px; 
+        margin-top: 0px;
+        
+    }
+    
+    .podval {
+   display: flex;
+flex-flow: row wrap;
+    align-items: top; 
+    
 }
+    
+}
+
 
 
 @media screen and (max-width: 480px)
