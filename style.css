@@ -299,10 +299,37 @@ transform: translate(-50%, 0);
 }
 
 .ruka2:hover {
-  background: #000;
+  background: gold;
     border-style: solid;
     color: #000;
     border-color: gold;
+}
+
+
+.ruka3 {
+    color: #000;
+    background: coral;
+    border-style: solid;
+    border-color: black;
+    padding: 25px 90px;
+    border-width: 2px;
+    appearance: none;
+    cursor: pointer;
+    
+    font-weight: bold;
+    border-radius:  100px;
+    
+    position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+    
+}
+
+.ruka3:hover {
+  background: black;
+    border-style: solid;
+    color: #fff;
+    border-color: black;
 }
 
 
@@ -378,6 +405,9 @@ transform: translate(-50%, 0);
     .ruka2 {    
     font-size: 16px;}
     
+    .ruka3 {    
+    font-size: 16px;}
+    
     a {font-size: 16px;}
     
     p.putp2, {font-size: 18px;}
@@ -404,6 +434,12 @@ transform: translate(-50%, 0);
     
     
     .ruka2 {
+        
+        font-size: calc(16px + 2 * (100vw - 320px) / 880);
+    }
+    
+    
+    .ruka3 {
         
         font-size: calc(16px + 2 * (100vw - 320px) / 880);
     }
@@ -434,6 +470,13 @@ transform: translate(-50%, 0);
         
     font-size: 18px;
     }
+    
+    
+    .ruka3 {
+        
+    font-size: 18px;
+    }
+    
     
     a {font-size: 16px;}
     
@@ -471,6 +514,10 @@ order:3;}
     
     
     .ruka2 {
+    padding: 20px 85px;}
+    
+    
+    .ruka3 {
     padding: 20px 85px;}
     
 
@@ -522,6 +569,10 @@ order:3;}
     
    
     .ruka2 {
+    padding: 15px 80px;}
+    
+    
+    .ruka3 {
     padding: 15px 80px;}
 
 
@@ -684,6 +735,10 @@ margin-bottom: 15px;
     
     
     .ruka2 {width: 100%;
+    padding: 15px 15px;}
+    
+    
+    .ruka3 {width: 100%;
     padding: 15px 15px;}
     
    
