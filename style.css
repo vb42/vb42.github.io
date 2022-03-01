@@ -116,6 +116,9 @@ a:hover {
 .spisok {display: flex;
 flex-flow: row wrap;
     align-items: top;
+    justify-content: left;
+    padding-left: 0px;
+    margin-right: 0px;
 }
 
 .uslugi {width: 220px;display: inline-block; border: 0px solid #fff; margin-bottom: 60px;
@@ -130,8 +133,8 @@ flex-flow: row wrap;
     align-items: center;
 }
 
-.uslugi1 { border: 0px solid #fff; margin-right: 50px;padding-bottom: 30px;padding: 20px;
-    border-radius: 0px; background-color: #000;
+.uslugi1 { border: 0px solid #fff; margin-right: 0px;padding-bottom: 30px;padding: 20px;
+    border-radius: 0px; background-color: #000; width: 470px;
 
 
 }
@@ -139,7 +142,19 @@ flex-flow: row wrap;
 
 .container {display: flex;
 flex-flow: row wrap;
-    align-items: top;}
+    align-items: top;
+}
+
+
+.container1 { width: 240px; border: 0px solid #000; margin-right: 50px;padding-bottom: 30px;
+    background-color: #fff;
+
+
+}
+
+
+
+ h3 {text-align: center;}
 
 
 header {
@@ -365,8 +380,9 @@ transform: translate(-50%, 0);
     
     a {font-size: 16px;}
     
-    p.putp2 {font-size: 18px;}
+    p.putp2, {font-size: 18px;}
     
+    h3 {font-size: 18px;text-align: center;}
     
     p.basic {font-size: 16px;}
     
@@ -394,7 +410,7 @@ transform: translate(-50%, 0);
 
      a {font-size: 16px;}
     
-    p.putp2 {font-size: calc(18px + 2 * (100vw - 320px) / 880);}
+    p.putp2, h3 {font-size: calc(18px + 2 * (100vw - 320px) / 880);}
     
     p.basic {font-size: calc(18px + 2 * (100vw - 320px) / 880);}
     
@@ -421,7 +437,7 @@ transform: translate(-50%, 0);
     
     a {font-size: 16px;}
     
-    p.putp2 {font-size: 22px;}
+    p.putp2, h3 {font-size: 22px;}
     
     p.basic {font-size: 20px;}
     
@@ -619,6 +635,13 @@ flex-flow: row wrap;
 }
     
     
+    .container1 { width: 100%; border: 0px solid #000; padding-right: 50px;padding-bottom: 30px;
+    background-color: #fff;
+
+
+}
+    
+    
     
     .logo {
         width: auto;
@@ -778,12 +801,7 @@ h2 {
 }
 
 
-h3 {
-    font-size: 24px;
-    font-weight: normal;
-    text-align: center;
-    
-}
+
 
 
 
