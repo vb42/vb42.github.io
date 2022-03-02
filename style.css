@@ -116,7 +116,7 @@ a:hover {
 .spisok {display: flex;
 flex-flow: row wrap;
     align-items: top;
-    justify-content: left;
+    justify-content: center;
     padding-left: 0px;
     margin-right: 0px;
 }
@@ -143,6 +143,7 @@ flex-flow: row wrap;
 .container {display: flex;
 flex-flow: row wrap;
     align-items: top;
+    justify-content: space-around;
 }
 
 
