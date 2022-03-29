@@ -130,14 +130,76 @@ flex-flow: row wrap;
 
 .spisok1 {display: flex;
 flex-flow: row wrap;
-    align-items: center;
+    justify-content: center;
+    
+    border: 0px solid green;
 }
 
-.uslugi1 { border: 0px solid #fff; margin-right: 0px;padding-bottom: 30px;padding: 20px;
-    border-radius: 0px; background-color: #000; width: 470px;
+.uslugi1 { border: 0px solid #fff; margin-right: 0px;padding-bottom: 0px;padding-left: 0px;
+    border-radius: 0px; background-color: #000; width: 380px;display: inline-block;height: auto;vertical-align:middle;
 
 
 }
+
+
+
+.bignum {
+    margin-right: 20px;
+    border: 0px solid red;
+    font-size: 200px;
+    display: inline;
+    vertical-align:middle;
+}
+
+
+.bignumuslugi1 {
+    margin-bottom: 50px;
+    margin-right: 40px;
+    border: 0px solid #fff;
+}
+
+
+@media screen and (max-width: 595px)
+{
+   .bignum {
+    margin-right: 20px;
+    border: 0px solid red;
+    font-size: 200px;
+    display: block;
+    vertical-align:middle;
+} 
+    
+    
+   .uslugi1 { border: 0px solid #fff; margin-right: 0px;padding-bottom: 0px;padding-left: 0px;
+    border-radius: 0px; background-color: #000; width: 100%;display: inline-block;height: auto;vertical-align:middle;
+
+
+} 
+    
+    
+    .bignumuslugi1 {
+    margin-bottom: 50px;
+    margin-right: 0px;
+    border: 0px solid #fff;
+}
+    
+   
+    
+   .spisok1 {display: flex;
+flex-flow: row wrap;
+    justify-content: left;
+    
+    border: 0px solid green;
+} 
+    
+    
+    
+    
+}
+
+
+
+
 
 
 .container {display: flex;
@@ -175,6 +237,7 @@ header {
     line-height: normal;
     order:1;
     margin-bottom: 15px;
+    vertical-align: middle;
     
 }
 
@@ -184,11 +247,45 @@ margin-bottom: 15px;
     
 }
 
-.menu1 {flex-grow: 1;
-order:2;
-margin-bottom: 15px;
+.list {display:flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+justify-content: center;
+margin: 0;
+    padding: 0;
     
 }
+
+
+
+
+  .list-item {
+      display: flex; 
+      flex-wrap: wrap;
+    width: 200px;
+      border: 0px solid white;
+      margin-bottom: 80px;
+      margin-right: 30px;
+  }
+
+
+.list-content {
+   display: flex;
+   flex-direction: column;
+   
+   
+   width: 100%;
+}
+   
+   
+  
+
+
+
+.list-content p {
+  flex: 1 0 auto;
+}
+
 
 
 nav.menu a {
@@ -208,13 +305,7 @@ nav.menu ul {
     
 }
 
-.menu1 ul {
-    display: flex;
-    margin-bottom: 50px;
-  padding: 0;
-     list-style: none;
-    
-}
+
 
 
 nav.menu ul li{
@@ -223,28 +314,16 @@ nav.menu ul li{
 }
 
 
-.menu1 ul li{
-	width: 25%;
-	margin-right: 20px;
-}
 
 
 
-.menu1 ul li.nalog{
-	width: 20%;
-	margin-right: 20px;
-}
-
-.menu1 ul li.dlya_kogo{
-	width: 40%;
-	margin-right: 20px;
-}
 
 
-.menu1 ul li.tsena{
-	width: 15%;
-	margin-right: 20px;
-}
+
+
+
+
+
 
 
 .citytel {order:3;
@@ -537,43 +616,20 @@ transform: translate(-50%, 0);
     
     
     
-    .menu1 ul {
-    
-        flex-direction: column;
-    margin-bottom: 30px;
-  padding: 0;
-        text-align: center;
-     list-style: none;
-}
     
     
     
-    .menu1 ul li{
-	width: 100%;
-        margin-bottom: 20px;
-	margin-right: 0px;
-}
     
     
-    .menu1 ul li.dlya_kogo{
-	width: 100%;
-        margin-bottom: 20px;
-	margin-right: 0px;
-}
     
     
-    .menu1 ul li.nalog{
-	width: 100%;
-        margin-bottom: 20px;
-	margin-right: 0px;
-}
     
     
-    .menu1 ul li.tsena{
-	width: 100%;
-        margin-bottom: 20px;
-	margin-right: 0px;
-}
+    
+    
+    
+    
+    
     
     
  .logo {
@@ -584,6 +640,7 @@ transform: translate(-50%, 0);
     margin-right: 30px;
     margin-bottom: 15px;
     order:1;
+     vertical-align: middle;
     
 }
     
@@ -643,6 +700,7 @@ order:3;}
     margin-right: 30px;
     margin-bottom: 15px;
     order:1;
+        vertical-align: middle;
     }
     
     
@@ -769,6 +827,19 @@ flex-flow: row wrap;
 @media screen and (max-width: 480px)
 {
     
+    
+    .list-item {
+      display: flex; 
+      flex-wrap: wrap;
+    width: 100%;
+      border: 0px solid white;
+      margin-bottom: 80px;
+      margin-right: 0px;
+  }
+    
+    
+    
+    
     .uslugi {width: 100%;display: inline-block; border: 0px solid #fff; margin-bottom: 60px;
     border-radius: 0px;
 
@@ -793,6 +864,7 @@ flex-flow: row wrap;
     margin-right: 30px;
     margin-bottom: 15px;
     order:1;
+        vertical-align: middle;
     }
     
     nav.menu {flex-grow: 1;
