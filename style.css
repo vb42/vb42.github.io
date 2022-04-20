@@ -25,7 +25,7 @@ a:hover {
 }
 
 
-.podval {
+.vcard {
    display: flex;
 
     align-items: top; 
@@ -35,7 +35,7 @@ a:hover {
 
 
 
-.podval a {
+.vcard a {
    
     color:white;
     text-decoration: none;
@@ -43,7 +43,16 @@ a:hover {
 }
 
 
-.podval ul {
+.vcard a:hover {
+   
+    color:white;
+    text-decoration: underline;
+    
+}
+
+
+
+.vcard ul {
    
     list-style: none;
     
@@ -337,14 +346,14 @@ margin-bottom: 15px;}
 }
 
     
-  .tel {display:inline-block;
+  .telephone {display:inline-block;
         
       
   
 }
 
 
-.tel a {
+.telephone a {
   color: #fff;
   text-decoration: none;
     background: transparent;
@@ -357,7 +366,7 @@ margin-bottom: 15px;}
 }  
 
 
-.tel a:hover {
+.telephone a:hover {
   color: #000;
   text-decoration: none;
     background: gold;
@@ -840,7 +849,7 @@ margin-bottom: 15px;
         
     }
     
-    .podval {
+    .vcard {
    display: flex;
 flex-flow: row wrap;
     align-items: top; 
