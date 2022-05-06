@@ -10,7 +10,7 @@ font-family: 'PT Sans', sans-serif;
 
 
 nav a, .city a {
-    color:black;
+    color:white;
     text-decoration: none;
     padding: 8px 15px 8px 0;
     border: solid 0px;
@@ -20,7 +20,7 @@ nav a, .city a {
 
 
 a:hover {
-    color:grey;
+    color:yellow;
     text-decoration: none;
 }
 
@@ -62,10 +62,9 @@ a:hover {
 .pic {
     color: white;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)), url(images/pic2.jpg);
-    
-        background-size: cover;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(images/vb.png);
+            
+    background-repeat: repeat;
     background-position: center;
     background-color: #000;   
     
@@ -345,11 +344,11 @@ margin-bottom: 15px;}
 
 
 .tel a {
-  color: #000;
+  color: white;
   text-decoration: none;
     background: transparent;
       border-style: solid;
-    border-color: black;
+    border-color: white;
       border-width: 1px;
       border-radius:  100px;
       padding: 4px 9px;
@@ -360,8 +359,8 @@ margin-bottom: 15px;}
 .tel a:hover {
   color: white;
   text-decoration: none;
-    background: grey;
-    border-color: grey;
+    background: yellow;
+    border-color: yellow;
 }  
 
 
@@ -772,7 +771,7 @@ margin-bottom: 15px;
     height: 2px;
     width: 100%;
     position: absolute;
-    background: black;
+    background: white;
     margin: 0 auto;
 }
 .burger span{
@@ -944,7 +943,7 @@ margin-bottom: 15px;
     height: 2px;
     width: 100%;
     position: absolute;
-    background: black;
+    background: white;
     margin: 0 auto;
 }
 .burger span{
