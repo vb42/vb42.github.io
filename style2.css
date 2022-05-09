@@ -20,7 +20,7 @@ nav a, .city a {
 
 
 a:hover {
-    color:yellow;
+    color:gold;
     text-decoration: none;
 }
 
@@ -357,10 +357,10 @@ margin-bottom: 15px;}
 
 
 .tel a:hover {
-  color: white;
+  color: black;
   text-decoration: none;
-    background: yellow;
-    border-color: yellow;
+    background: gold;
+    border-color: gold;
 }  
 
 
