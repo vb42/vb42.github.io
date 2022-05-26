@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /
+Disallow: /thankyou.html
+Disallow: /yandex_b1d1af318edf6a0c.html
