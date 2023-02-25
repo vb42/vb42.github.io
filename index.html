@@ -8,7 +8,10 @@
      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
      })(window,document,'script','dataLayer','GTM-TFKJVHS');</script>
-    <!-- End Google Tag Manager --> 
+    <!-- End Google Tag Manager -->
+   
+   <script src="https://maps.api.2gis.ru/2.0/loader.js"></script>
+   
      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -433,11 +436,30 @@
             
            <section id="city" class="section-map">
                     
-                    <div style="height: 50vh;">
-                     
-                <iframe frameborder="no" style="border: 0px solid #a3a3a3; box-sizing: border-box;" width="100%" height="100%" src="http://widgets.2gis.com/widget?type=firmsonmap&amp;options=%7B%22pos%22%3A%7B%22lat%22%3A55.38379153179286%2C%22lon%22%3A86.17229461669923%2C%22zoom%22%3A11%7D%2C%22opt%22%3A%7B%22city%22%3A%22kemerovo%22%7D%2C%22org%22%3A%2270000001048538304%2C70000001068055036%2C70000001068260036%2C70000001068565364%22%7D"></iframe>
+                    <div id="map" style="width:100%; height:50vh"></div>
                     
-                    </div>
+   <script type="text/javascript">
+   var map;
+   DG.then(function () {
+   map = DG.map('map', {
+   center: [55.38379153179286, 86.17229461669923],
+   zoom: 12,
+   dragging : false,
+   touchZoom: false,
+   scrollWheelZoom: false,
+   doubleClickZoom: false,
+   boxZoom: false,
+   geoclicker: false,
+   zoomControl: false,
+   fullscreenControl: false
+   });
+   DG.marker([55.428852, 86.222868]).addTo(map).bindPopup('Ваш бухгалтер на Лесной поляне, пр. В. Михайлова, 3а к1').bindLabel('На Лесной поляне', {static: true}); 
+   DG.marker([55.332134, 86.130665]).addTo(map).bindPopup('Ваш бухгалтер на ФПК, ул. Тухачевского, 29');
+   DG.marker([55.34104389877587, 86.16291761398317]).addTo(map).bindPopup('Ваш бухгалтер на Бульваре, пр. Химиков, 12а');
+   DG.marker([55.345793, 86.121929]).addTo(map).bindPopup('Ваш бухгалтер на Юбилейном, пр. Ленина, 82а');
+   });
+   </script>
+                
                 </section>  
           
             <section id="part1" class="section-gold">
