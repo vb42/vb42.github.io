@@ -2,5 +2,6 @@ User-agent: *
 Disallow: /index.html
 Disallow: /thankyou.html
 Disallow: /yandex_b1d1af318edf6a0c.html
+Disallow: /test.html
 
 Sitemap: https://vb42.ru/sitemap.xml
